@@ -9,7 +9,7 @@ STORAGE = GitHub(
     path=f"flows/{FLOW_NAME}.py",
     access_token_secret="GITHUB_ACCESS_TOKEN",
 )
-PROJECT_NAME = "jaffle_shop"
+PROJECT_NAME = "jaffle_shop1"
 
 
 with Flow(FLOW_NAME, storage=STORAGE, run_config=LocalRun(labels=["dev"])) as flow:
